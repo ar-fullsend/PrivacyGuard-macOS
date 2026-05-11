@@ -2,7 +2,7 @@ import AVFoundation
 import CoreMedia
 
 class MacCameraSensor: NSObject {
-    private let captureSession = AVCaptureSession()
+    public let captureSession = AVCaptureSession()
     private let videoOutput = AVCaptureVideoDataOutput()
     private var isRunning = false
     
