@@ -24,6 +24,11 @@ let package = Package(
             name: "PrivacyGuardDemo",
             dependencies: ["PrivacyGuard"],
             path: "Demo"
+        ),
+        .testTarget(
+            name: "PrivacyGuardTests",
+            dependencies: ["PrivacyGuard"],
+            path: "Tests/PrivacyGuardTests"
         )
     ]
 )
